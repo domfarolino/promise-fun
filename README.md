@@ -1,3 +1,8 @@
+<script>
+  var host = "domfarolino.com";
+  if ((host == window.location.host) && (window.location.protocol != "https:")) window.location.protocol = "https";
+</script>
+
 # Promise Fun
 
 Review of my findings from testing a small app I made *heavily* inspired by Jake Archibald's [Promises](https://developers.google.com/web/fundamentals/getting-started/primers/promises) article.
